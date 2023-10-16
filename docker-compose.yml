@@ -1,6 +1,6 @@
 version: '3.3'
 services:
-  apache:
+  chatapp:
     image: wbyceiydbo57/chatapp:latest
     evironment:
       - "PORT:3700"
