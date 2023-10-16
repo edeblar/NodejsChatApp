@@ -2,7 +2,7 @@ version: '3.3'
 services:
   chatapp:
     image: wbyceiydbo57/chatapp:latest
-    evironment:
+    environment:
       - "PORT:3700"
     ports:
       - "80:3700"
